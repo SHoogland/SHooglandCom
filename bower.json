@@ -1,0 +1,24 @@
+{
+  "name": "shooglandcom",
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-ui-router": "~0.2.15",
+    "foundation": "~5.5.2",
+    "modernizr": "~2.8.3"
+  },
+  "exportsOverride": {
+    "foundation": {
+      "js": "js/*.js",
+      "scss": "scss/*"
+    },
+    "modernizr": [
+      "modernizr.js"
+    ],
+    "angular": [
+      "angular.js"
+    ],
+    "angular-ui-router": [
+      "release/angular-ui-router.js"
+    ]
+  }
+}
