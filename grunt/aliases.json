@@ -28,7 +28,8 @@
 		"copy:fonts",
 		"ngtemplates:dist",
 		"sass:dist",
-		"postcss"
+		"postcss",
+		"uglify"
 	],
 	"staging": [
 
