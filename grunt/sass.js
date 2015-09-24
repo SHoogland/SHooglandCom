@@ -1,7 +1,7 @@
 module.exports = {
 	dist: {
 		options: {
-			style: 'expanded',
+			style: 'compressed',
 			loadPath: ['<%= config.src.vendor %>foundation/scss/']
 		},
 		files: {
