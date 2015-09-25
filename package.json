@@ -4,6 +4,14 @@
   "description": "SHoogland.com",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "test": "grunt jshint"
+  },
+  "author": "Stephan Hoogland <stephan@shoogland.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SHoogland/SHooglandCom"
+  },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "bower": "^1.5.2",

@@ -1,14 +1,4 @@
 module.exports = {
-	html: {
-		files: [{
-			expand: true,
-			cwd: '<%= config.src.app %>',
-			src: [
-				'*.html'
-			],
-			dest: '<%= config.dist.root %>'
-		}]
-	},
 	images: {
 		files: [{
 			expand: true,

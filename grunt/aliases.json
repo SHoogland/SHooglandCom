@@ -1,40 +1,32 @@
 {
-	"default": [
-		"notify",
-		"dev",
-		"connect",
-		"watch"
-	],
-	"dev": [
-		"jshint:src",
-		"clean",
-		"concat:scripts",
-		"copy:html",
-		"htmlbuild:dev",
-		"copy:vendor",
-		"copy:images",
-		"copy:fonts",
-		"ngtemplates:dev",
-		"sass:dist",
-		"postcss"
-	],
-	"dist": [
-		"clean",
-		"concat:scripts",
-		"copy:html",
-		"htmlbuild:dist",
-		"concat:dist",
-		"copy:images",
-		"copy:fonts",
-		"ngtemplates:dist",
-		"sass:dist",
-		"postcss",
-		"uglify"
-	],
-	"staging": [
-
-	],
-	"cssmagic": [
-		"csscomb:dynamic_mappings"
-	]
+  "default": [
+    "notify",
+    "dev",
+    "connect",
+    "watch"
+  ],
+  "dev": [
+    "jshint",
+    "clean",
+    "concat:scripts",
+    "htmlbuild:dev",
+    "copy:vendor",
+    "copy:images",
+    "copy:fonts",
+    "ngtemplates:dev",
+    "sass:dist",
+    "postcss"
+  ],
+  "dist": [
+    "clean",
+    "concat:scripts",
+    "htmlbuild:dist",
+    "concat:dist",
+    "copy:images",
+    "copy:fonts",
+    "ngtemplates:dist",
+    "sass:dist",
+    "postcss",
+    "uglify"
+  ]
 }
